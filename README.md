@@ -27,7 +27,7 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 ```
 ### Steps
 ```
-1.	sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+1.  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 2.  wget -O- https://apt.releases.hashicorp.com/gpg | \
 gpg --dearmor | \
 sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
@@ -40,7 +40,7 @@ sudo tee /etc/apt/sources.list.d/hashicorp.list
 5.  sudo apt update
 6.  sudo apt-get install terraform
 7.  terraform -version
-8. 6.	terraform -help plan
+8.  terraform -help plan
 ```
 
 ### Connect Terraform with AWS
