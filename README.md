@@ -50,8 +50,12 @@ aws configure
 AWS Access Key ID [None]: 
 AWS Secret Access Key [None]: 
 Default region name [None]: 
-
-
+```
+```
+sudo apt update
+sudo apt-get install terraform
+terraform -version
+terraform -help plan
 ```
 
 Its very easy to connect Terraform with AWS. Run `aws configure` command and provide the AWS Security credentials as shown in the video.
